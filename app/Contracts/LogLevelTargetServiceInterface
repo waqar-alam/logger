@@ -1,0 +1,12 @@
+<?php
+
+// app/Contracts/LogLevelTargetServiceInterface.php
+
+namespace App\Contracts;
+
+use App\Models\LogLevelTarget;
+
+interface LogLevelTargetServiceInterface
+{
+    public function getLogLevelTargetById(int $id): ?LogLevelTarget;
+}
