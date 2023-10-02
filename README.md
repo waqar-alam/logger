@@ -1,4 +1,4 @@
-# Laravel REST API with Logging
+# Logger API - Using Laravel
 
 ## Overview
 
